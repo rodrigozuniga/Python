@@ -24,6 +24,3 @@ plt.boxplot(data_to_plot)
 plt.title('Distribution by Group')
 plt.xticks([1, 2, 3, 4], ['A', 'B', 'C','D'])
 plt.grid(True)
-
-
-# ?plt.boxplot
