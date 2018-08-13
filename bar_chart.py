@@ -27,4 +27,3 @@ mns.index.name='Iris Type'
 bar_avg=mns.plot.bar(figsize=(10,8),grid=True,title='Avg Length and Width by Iris Type',rot=0,fontsize=14)
 plt.ylabel('cm',fontsize=14)
 plt.xlabel('Iris Type',fontsize=12)
-from sklearn import datasets as ds
