@@ -1,4 +1,4 @@
-import pandas as pd, numpy as np
+import pandas as pd, numpy as np,os
 import matplotlib.pyplot as plt,  seaborn as sns
 from sklearn import datasets
 # Set default Seaborn style
@@ -14,7 +14,8 @@ sns.swarmplot(x='target',y='petal length (cm)',data=df)
 plt.title('Iris Petal Length Swarmplot')
 plt.xlabel('Species')
 plt.ylabel('Petal Length')
-plt.show()
 os.chdir("C:\\Users\\rodri\\Python")
 print(os.getcwd())
 plt.savefig("swarmplot_iris.pdf", transparent = True)
+
+plt.show()
