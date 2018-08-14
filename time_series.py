@@ -29,6 +29,7 @@ plt.title('Normally Distributed Variables',color='blue')
 plt.legend(('Value1','Value2'))
 plt.ylabel('Value')
 plt.xlabel('Date')
+plt.show()
 #df.plot() for graphing time series
 plt.figure(figsize=(15,15))
 df['dts']=dts
