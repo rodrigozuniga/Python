@@ -17,9 +17,9 @@ plt.ylabel('Petal Length')
 plt.grid('True')
 os.chdir("C:\\Users\\rodri\\Python")
 print(os.getcwd())
+plt.show()
 plt.savefig("swarmplot_iris.pdf", transparent = True)
 
-plt.show()
 
 # """Exploratory data analysis can never be the
 # whole story, but nothing else can serve as
