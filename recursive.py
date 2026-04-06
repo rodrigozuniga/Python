@@ -75,11 +75,11 @@ def change(amount):
     amount=amount-5
     x.append(5)
     if amount%7==0:
-        for i in np.arange(1,amount/7)
-        x.append(7)
-        return(x)
+        for i in np.arange(1,amount/7):
+            x.append(7)
+            return(x)
     else change(amount-5)
-    return(x)
+        return(x)
 
 def exact57(a):
     if(a%5==0):
